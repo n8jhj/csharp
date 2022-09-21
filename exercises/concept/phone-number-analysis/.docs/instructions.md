@@ -12,7 +12,7 @@ NNN-NNN-NNNN e.g. 212-515-9876 and non-null.
 Your analysis should return 3 pieces of data
 
 1. An indication of whether the number has a New York dialing code ie. 212 as the first 3 digits
-2. An indication of whether the number is fake having 555 as a prefix code in positions 5 to 7 (numbering from 1)
+2. An indication of whether the number is fake having 555 as a prefix code in positions 4 to 6 (numbering from 1)
 3. The last 4 digits of the number.
 
 Implement the (static) method `PhoneNumber.Analyze()` to produce the phone number info.
